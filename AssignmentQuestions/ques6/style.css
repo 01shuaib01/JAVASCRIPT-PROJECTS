@@ -1,0 +1,64 @@
+/*Start the coding for CSS */
+
+img{
+    width: 96rem;
+    height: 44rem;
+   
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.formstyle {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px auto;
+    /* border: 3px solid skyblue; */
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    /* background-color: white; */
+}
+
+/* Display top horizontal bar that contain some information. */
+h1 {
+    position: relative;
+    text-align: center;
+    padding: 23px;
+    /* background-color: skyblue; */
+    color: #AEFEFF;
+}
+
+input:hover {
+    background-color: #54BAB9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* It is used to create the layout for calculator button. */
+.btn {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 10px;
+    cursor: pointer;
+    color: black;
+    border-radius: 20px;
+
+}
+
+/* It is used to display the numbers, operations and results. */
+.textview {
+    border: none;
+    /* width: 223px; */
+    width: 300px;
+    height: 50px;
+    /* margin: 1px; */
+    font-size: 25px;
+    padding: 5px;
+    background-color: #EEEEEE;
+}
